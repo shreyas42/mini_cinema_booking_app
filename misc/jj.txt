@@ -1,0 +1,35 @@
+insert into <table-name> select "<show-id>","<audi>",row-num,col-num,price from seat
+
+
+import sys
+import Adafruit_DHT
+import time
+import datetime
+import gspread
+import oauth2client.client
+from oauth2client.service_account import ServiceAccountCredentials
+import json
+#import smbus
+
+JSON_FILENAME = 'My Project-81ee44687570.json'
+
+GSHEET_NAME = 'pirect_control'
+
+json_key = json.load(open(JSON_FILENAME))
+
+scope = ['https://spreadsheets.google.com/feeds']
+
+creds = ServiceAccountCredentials.from_json_keyfile_name(JSON_FILENAME,scope)
+
+client_inst = gspread.authorize(creds)
+
+gsheet = client_inst.open(GSHEET_NAME).sheet1
+
+while True:
+
+        humidity,temperature = Adafruit_DHT.read_retry(11,4)
+        curr_time = datetime.datetime.now()
+        print('Temp:{0:0.1f} C Humidity: {1:0.1f} %'.format(temperature,humidity))
+        gsheet.append_row((curr_time,temperature,humidity))
+        time.sleep(2)
+

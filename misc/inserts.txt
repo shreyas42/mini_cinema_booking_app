@@ -1,0 +1,54 @@
+ACTORS:
+insert into actor (name, gender, age) values ('Scott Larson', 'M', '1989-04-30');
+insert into actor (name, gender, age) values ('Beverly Andrews', 'F', '1968-03-18');
+insert into actor (name, gender, age) values ('Jonathan Allen', 'M', '1973-11-15');
+insert into actor (name, gender, age) values ('Phyllis Simmons', 'F', '2001-12-19');
+insert into actor (name, gender, age) values ('Harry Carter', 'M', '1999-12-22');
+insert into actor (name, gender, age) values ('Jean Murray', 'F', '1939-02-02');
+insert into actor (name, gender, age) values ('Carolyn Vasquez', 'F', '1995-12-07');
+insert into actor (name, gender, age) values ('George Perez', 'M', '1945-07-01');
+insert into actor (name, gender, age) values ('Nicholas Flores', 'M', '1938-02-02');
+insert into actor (name, gender, age) values ('Chris Medina', 'M', '1942-09-15');
+insert into actor (name, gender, age) values ('Linda Powell', 'F', '1945-05-20');
+insert into actor (name, gender, age) values ('Michael Hayes', 'M', '1949-06-19');
+insert into actor (name, gender, age) values ('Rose Wilson', 'F', '1941-05-28');
+insert into actor (name, gender, age) values ('Robin Bennett', 'F', '1956-01-06');
+insert into actor (name, gender, age) values ('Sharon Shaw', 'F', '1961-05-06');
+insert into actor (name, gender, age) values ('Lawrence Knight', 'M', '1983-06-18');
+insert into actor (name, gender, age) values ('Bruce Carpenter', 'M', '1989-02-27');
+insert into actor (name, gender, age) values ('Janice Howell', 'F', '1942-06-23');
+insert into actor (name, gender, age) values ('Joshua Kim', 'M', '1947-01-13');
+insert into actor (name, gender, age) values ('Rachel Willis', 'F', '2004-06-20');
+
+DIRECTORS:
+insert into director (name, gender, dob) values ('Roy Johnston', 'M', '1949-04-14');
+insert into director (name, gender, dob) values ('Matthew Martinez', 'M', '1948-08-08');
+insert into director (name, gender, dob) values ('Jason Armstrong', 'M', '1958-08-04');
+insert into director (name, gender, dob) values ('Bobby Little', 'M', '1964-08-30');
+insert into director (name, gender, dob) values ('Helen Coleman', 'F', '1963-03-30');
+insert into director (name, gender, dob) values ('Pamela Duncan', 'F', '1972-12-05');
+insert into director (name, gender, dob) values ('Frank Richards', 'M', '1968-12-17');
+insert into director (name, gender, dob) values ('Robert Boyd', 'M', '1972-12-08');
+insert into director (name, gender, dob) values ('Andrew Armstrong', 'M', '1983-08-28');
+insert into director (name, gender, dob) values ('Karen Ruiz', 'F', '1968-11-11');
+
+CUSTOMERS:
+insert into customer (email, password, name, phone_number, balance) values ('lreed0@ustream.tv', 'ns0XheojD', 'Laura Reed', '63-(966)216-7919', '2216.23');
+insert into customer (email, password, name, phone_number, balance) values ('avasquez1@goo.ne.jp', 'XioMZIyhm', 'Amy Vasquez', '63-(434)576-8044', '3443.50');
+insert into customer (email, password, name, phone_number, balance) values ('mporter2@illinois.edu', 'G8PtbLwiLLtw', 'Maria Porter', '30-(602)899-7320', '2692.57');
+insert into customer (email, password, name, phone_number, balance) values ('bbradley3@usda.gov', 'dTLLGDUssW2N', 'Brandon Bradley', '86-(683)271-6285', '4316.15');
+insert into customer (email, password, name, phone_number, balance) values ('mreynolds4@un.org', 'DphtDgYgznR', 'Maria Reynolds', '51-(995)852-9214', '1647.38');
+
+AUDITORIUM:
+insert into MOCK_DATA (number) values (1);
+insert into MOCK_DATA (number) values (2);
+insert into MOCK_DATA (number) values (3);
+insert into MOCK_DATA (number) values (4);
+insert into MOCK_DATA (number) values (5);
+insert into MOCK_DATA (number) values (6);
+insert into MOCK_DATA (number) values (7);
+insert into MOCK_DATA (number) values (8);
+insert into MOCK_DATA (number) values (9);
+insert into MOCK_DATA (number) values (10);
+
+	

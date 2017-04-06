@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Seat details for <u><b>{{ movie_name }}</b></u> on {{s_date}} at {{ s_time }} </h2>
+    <h3> Auditorium Number: {{ audi }}</br> Shown in format: </h3>
+    <ul>
+        {% for seat in seats %}
+        <li><h3>{{ seat.s_row_num}} {{ seat.s_col_num }} </h3> </li>
+        {% endfor %}
+    </ul> 
+{% endblock %}

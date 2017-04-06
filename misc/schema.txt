@@ -1,0 +1,110 @@
+List of tables required:
+
+MOVIE:
+title varchar(40) primary key
+running time varchar(10)
+critics score numeric(2,2)
+language varchar(10)
+
+STARRING:
+movie title varchar(40) primary key
+actor name varchar(40) primary key
+foreign keys:
+movie tile references movie on delete cascade
+actor_name references actor on delete set null
+
+ACTOR:
+name title varchar(40) primary key
+rating numeric(2,2)
+
+FORMAT:
+format_id varchar(10) primary key
+category varchar(5) 
+frames_per_second numeric(2,0)
+
+SHOWN_IN:
+movie_title varchar(40),
+format_id varchar(10),
+primary key(movie_title)
+foreign keys: movie_title references movie
+format_id references format
+
+DIRECTOR:
+name varchar(40) primary key
+no_of_directed_movies numeric(3,0)
+
+DIRECTED_BY:
+movie_title varchar(40) primary key
+director_name varchar(40)
+foreign key movie_title references movie 
+on delete cascade
+foreign key director_name references director
+on delete cascade
+
+SHOW:
+show_id varchar(10) primary key
+time varchar(10) primary key
+date varchar(10) primary key
+
+SCREENING:
+show_id primary key
+movie_title
+foreign keys:
+show_id references show on delete cascade
+movie_title references movie on delete cascade
+
+AUDITORIUM:
+auditorium_number numeric(2,0) primary key not null
+
+HOSTED BY:
+audi_number numeric(2,0) primary key not null
+show_id varchar(10) primary key not null
+date date(?) primary key
+time varchar(10) primary key
+foreign keys:
+audi_number references auditorium on delete cascade
+(show_id,date,time) references show on delete cascade
+
+CUSTOMER:
+email varchar(30) primary key
+phone_number numeric(10,0) unique
+password varchar(20)
+name varchar(40) not null
+
+BOOKING:
+Booking id varchar(10) primary key
+
+BOOKS:
+Booking_id varchar(10) primary key 
+customer_email varchar(30) not null
+foreign keys:
+booking_id references booking on delete cascade
+customer_email references customer cascade
+
+SEAT:
+row varchar(2) primary key
+column numeric(2,0) primary key
+booked boolean not null default = false
+
+RESERVES:
+row varchar(2) primary key
+column varchar(2,0) primary key
+booking_id varchar(10) not null
+foreign keys:
+(row,column) references seat on delete cascade
+booking_id references booking on delete cascade
+
+CONTAINS:
+audi_number numeric(2,0) primary key
+row varchar(2) primary key
+column numeric(2,0) primary key
+foreign keys:
+audi_number references auditorium on delete cascade
+(row,column) references seat on delete cascade
+
+PERMITS TO:
+Booking_id varchar(10) primary key
+show_id varchar(10) not null
+foreign keys:
+booking_id references booking on delete cascade
+show_id references show on delete cascade

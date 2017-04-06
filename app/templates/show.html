@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Show details for {{ movie_name }} </h2>
+	{% for show in show_details %}
+        <div><h3><a href= {{ url_for('seat_selection',s_id = show.show_id) }}> {{ show.show_date }}  {{ show.show_time}}</a></h3></br></div>
+    {% endfor %}
+{% endblock %}

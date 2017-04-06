@@ -1,0 +1,362 @@
+\c amaterasu
+
+INSERT INTO actor(name,gender,dob) VALUES ('Mihaly Vig','F','1995-07-04');
+INSERT INTO actor(name,gender,dob) VALUES ('Putyi Horvath','M','1987-11-12');
+INSERT INTO actor(name,gender,dob) VALUES ('Laszlo Lugossy','F','1994-03-27');
+INSERT INTO actor(name,gender,dob) VALUES ('Haley Joel Osment','M','1933-01-16');
+INSERT INTO actor(name,gender,dob) VALUES ('Jude Law','M','1939-09-23');
+INSERT INTO actor(name,gender,dob) VALUES ('Frances O’Connor','F','1945-04-12');
+INSERT INTO actor(name,gender,dob) VALUES ('Tilda Swinton','F','1968-12-29');
+INSERT INTO actor(name,gender,dob) VALUES ('Gabriele Ferzetti','M','1948-10-03');
+INSERT INTO actor(name,gender,dob) VALUES ('Marisa Berenson','F','1943-06-08');
+INSERT INTO actor(name,gender,dob) VALUES ('Chris Evans','M','1994-11-17');
+INSERT INTO actor(name,gender,dob) VALUES ('Song Kang-ho','M','1961-04-01');
+INSERT INTO actor(name,gender,dob) VALUES ('Jamie Bell','M','1992-02-08');
+INSERT INTO actor(name,gender,dob) VALUES ('Eric Bana','M','2001-01-07');
+INSERT INTO actor(name,gender,dob) VALUES ('Daniel Craig','M','1949-04-10');
+INSERT INTO actor(name,gender,dob) VALUES ('Ciaran Hinds','M','1971-01-06');
+INSERT INTO actor(name,gender,dob) VALUES ('Tom Hanks','M','1992-03-31');
+INSERT INTO actor(name,gender,dob) VALUES ('Paul Newman','M','1977-03-08');
+INSERT INTO actor(name,gender,dob) VALUES ('Leonardo DiCaprio','M','1995-09-17');
+INSERT INTO actor(name,gender,dob) VALUES ('Javier Bardem','M','1960-05-31');
+INSERT INTO actor(name,gender,dob) VALUES ('Judi Dench','F','1974-12-07');
+INSERT INTO actor(name,gender,dob) VALUES ('Ken Watanabe','M','1963-01-16');
+INSERT INTO actor(name,gender,dob) VALUES ('Marion Cotillard','F','1957-11-12');
+INSERT INTO actor(name,gender,dob) VALUES ('Ellen Page','F','1984-03-27');
+INSERT INTO actor(name,gender,dob) VALUES ('Joseph Gordon-Levitt','M','1983-01-16');
+INSERT INTO actor(name,gender,dob) VALUES ('Tom Hardy','M','1979-09-23');
+INSERT INTO actor(name,gender,dob) VALUES ('Cillian Murphy','M','1955-04-12');
+INSERT INTO actor(name,gender,dob) VALUES ('Heloise Godet','F','1998-12-29');
+INSERT INTO actor(name,gender,dob) VALUES ('Kamel Abdeli','M','1968-10-03');
+INSERT INTO actor(name,gender,dob) VALUES ('Richard Chevallier','M','1973-06-08');
+INSERT INTO actor(name,gender,dob) VALUES ('Zoe Bruneau','F','1984-11-17');
+INSERT INTO actor(name,gender,dob) VALUES ('Andy Serkis','M','1961-06-01');
+INSERT INTO actor(name,gender,dob) VALUES ('Nick Frost','M','1992-12-08');
+INSERT INTO actor(name,gender,dob) VALUES ('Simon Pegg','M','2001-11-07');
+INSERT INTO actor(name,gender,dob) VALUES ('Charlize Theron','F','1949-04-10');
+INSERT INTO actor(name,gender,dob) VALUES ('Nicholas Hoult','M','1971-01-30');
+
+
+INSERT INTO director(name,gender,dob) VALUES ('Name','M','1935-06-25');
+INSERT INTO director(name,gender,dob) VALUES ('Bela Tarr','F','1953-01-29');
+INSERT INTO director(name,gender,dob) VALUES ('Steven Spielberg','M','1975-10-13');
+INSERT INTO director(name,gender,dob) VALUES ('Luca Guadagnino','F','1974-02-28');
+INSERT INTO director(name,gender,dob) VALUES ('Bong Joon-ho','F','1955-04-26');
+INSERT INTO director(name,gender,dob) VALUES ('Sam Mendes','M','1954-02-14');
+INSERT INTO director(name,gender,dob) VALUES ('Fisher Stevens','F','1950-11-08');
+INSERT INTO director(name,gender,dob) VALUES ('Christopher Nolan','M','1934-05-04');
+INSERT INTO director(name,gender,dob) VALUES ('Jean-Luc Godard','M','1930-07-14');
+INSERT INTO director(name,gender,dob) VALUES ('George Miller','M','1944-02-17');
+
+
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Satantango',450,9.1,'Hungarian');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('A.I. Artificial Intelligence',146,8,'English');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('I am Love',120,7.6,'Italian');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Snowpiercer',126,8.9,'English');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Munich',164,8.1,'Hungarian');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Road to Perdition',117,8.2,'English');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Before The Flood',96,7.1,'French');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Skyfall',143,8.8,'English');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Inception',148,8.6,'English');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Goodbye to Language',70,7.9,'French');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('The Adventures of Tintin',97,7.2,'French');
+INSERT INTO movie(title,running_time,critics_score,language) VALUES ('Mad Max: Fury Road',120,9.1,'English');
+
+
+INSERT INTO starring(movie_title,actor_name) VALUES ('Satantango','Mihaly Vig');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Satantango','Putyi Horvath');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Satantango','Laszlo Lugossy');
+INSERT INTO starring(movie_title,actor_name) VALUES ('A.I. Artificial Intelligence','Haley Joel Osment');
+INSERT INTO starring(movie_title,actor_name) VALUES ('A.I. Artificial Intelligence','Jude Law');
+INSERT INTO starring(movie_title,actor_name) VALUES ('A.I. Artificial Intelligence','Frances O’Connor');
+INSERT INTO starring(movie_title,actor_name) VALUES ('I am Love','Tilda Swinton');
+INSERT INTO starring(movie_title,actor_name) VALUES ('I am Love','Gabriele Ferzetti');
+INSERT INTO starring(movie_title,actor_name) VALUES ('I am Love','Marisa Berenson');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Snowpiercer','Chris Evans');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Snowpiercer','Song Kang-ho');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Snowpiercer','Tilda Swinton');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Snowpiercer','Jamie Bell');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Munich','Eric Bana');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Munich','Daniel Craig');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Munich','Ciaran Hinds');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Road to Perdition','Tom Hanks');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Road to Perdition','Paul Newman');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Road to Perdition','Jude Law');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Road to Perdition','Daniel Craig');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Road to Perdition','Ciaran Hinds');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Before The Flood','Leonardo DiCaprio');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Skyfall','Daniel Craig');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Skyfall','Javier Bardem');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Skyfall','Judi Dench');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Leonardo DiCaprio');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Ken Watanabe');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Marion Cotillard');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Ellen Page');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Joseph Gordon-Levitt');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Tom Hardy');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Inception','Cillian Murphy');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Goodbye to Language','Heloise Godet');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Goodbye to Language','Kamel Abdeli');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Goodbye to Language','Richard Chevallier');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Goodbye to Language','Zoe Bruneau');
+INSERT INTO starring(movie_title,actor_name) VALUES ('The Adventures of Tintin','Jamie Bell');
+INSERT INTO starring(movie_title,actor_name) VALUES ('The Adventures of Tintin','Andy Serkis');
+INSERT INTO starring(movie_title,actor_name) VALUES ('The Adventures of Tintin','Daniel Craig');
+INSERT INTO starring(movie_title,actor_name) VALUES ('The Adventures of Tintin','Nick Frost');
+INSERT INTO starring(movie_title,actor_name) VALUES ('The Adventures of Tintin','Simon Pegg');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Mad Max: Fury Road','Tom Hardy');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Mad Max: Fury Road','Charlize Theron');
+INSERT INTO starring(movie_title,actor_name) VALUES ('Mad Max: Fury Road','Nicholas Hoult');
+
+
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Satantango','Bela Tarr');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('A.I. Artificial Intelligence','Steven Spielberg');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('I am Love','Luca Guadagnino');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Snowpiercer','Bong Joon-ho');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Munich','Steven Spielberg');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Road to Perdition','Sam Mendes');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Before The Flood','Fisher Stevens');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Skyfall','Sam Mendes');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Inception','Christopher Nolan');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Goodbye to Language','Jean-Luc Godard');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('The Adventures of Tintin','Steven Spielberg');
+INSERT INTO directed_by(movie_title,director_name) VALUES ('Mad Max: Fury Road','George Miller');
+
+
+INSERT INTO format(format_id,category) VALUES ('SE1','2D');
+INSERT INTO format(format_id,category) VALUES ('SE2','3D');
+INSERT INTO format(format_id,category) VALUES ('SE3','IMAX 2D');
+INSERT INTO format(format_id,category) VALUES ('SE4','IMAX 3D');
+INSERT INTO format(format_id,category) VALUES ('SE5','Gold Class');
+
+
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Satantango','SE5');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('A.I. Artificial Intelligence','SE1');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('I am Love','SE1');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Snowpiercer','SE1');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Munich','SE1');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Road to Perdition','SE1');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Before The Flood','SE5');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Skyfall','SE3');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Inception','SE3');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Goodbye to Language','SE2');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('The Adventures of Tintin','SE4');
+INSERT INTO shown_in(movie_title,format_id) VALUES ('Mad Max: Fury Road','SE4');
+
+
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_SAT1','2017/05/13','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_SAT2','2017/05/14','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_AIA1','2017/05/13','16:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_AIA2','2017/05/14','16:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_BEF1','2017/05/13','19:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_BEF2','2017/05/14','19:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_MAD1','2017/05/13','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_MAD2','2017/05/14','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_SKY1','2017/05/13','11:10:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_SKY2','2017/05/14','11:10:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_INC1','2017/05/13','13:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_INC2','2017/05/14','13:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_THE1','2017/05/13','16:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_THE2','2017/05/14','16:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_INC3','2017/05/13','18:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('I_INC4','2017/05/14','18:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_GOO1','2017/05/13','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_GOO2','2017/05/14','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_THE3','2017/05/13','10:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_THE4','2017/05/14','10:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_GOO3','2017/05/13','12:10:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_GOO4','2017/05/14','12:10:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_MAD3','2017/05/13','13:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_MAD4','2017/05/14','13:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_THE5','2017/05/13','15:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_THE6','2017/05/14','15:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_GOO5','2017/05/13','17:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_GOO6','2017/05/14','17:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_MAD5','2017/05/13','18:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('D_THES','2017/05/14','18:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_ROA1','2017/05/12','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_ROA2','2017/05/15','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_AIA3','2017/05/12','11:10:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_AIA4','2017/05/15','11:10:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_ROA3','2017/05/12','13:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_ROA4','2017/05/15','13:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_SKY3','2017/05/12','16:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_INCS','2017/05/15','16:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_ROA5','2017/05/12','18:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('2_ROA6','2017/05/15','18:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_MUN1','2017/05/12','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_MUN2','2017/05/15','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_SNO1','2017/05/12','12:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_SNO2','2017/05/15','12:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_IAM1','2017/05/12','14:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_IAM2','2017/05/15','14:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_SNO3','2017/05/12','16:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_SNO4','2017/05/15','16:30:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_IAM3','2017/05/12','18:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('1_IAM4','2017/05/15','18:50:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_SAT3','2017/05/12','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_SAT4','2017/05/15','09:00:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_AIA5','2017/05/12','16:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_AIA6','2017/05/15','16:40:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_BEF3','2017/05/12','19:20:00');
+INSERT INTO show(show_id,show_date,show_time) VALUES ('G_BEF4','2017/05/15','19:20:00');
+
+
+INSERT INTO screening(show_id,movie_title) VALUES ('G_SAT1','Satantango');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_SAT2','Satantango');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_AIA1','A.I. Artificial Intelligence');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_AIA2','A.I. Artificial Intelligence');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_BEF1','Before The Flood');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_BEF2','Before The Flood');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_MAD1','Mad Max: Fury Road');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_MAD2','Mad Max: Fury Road');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_SKY1','Skyfall');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_SKY2','Skyfall');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_INC1','Inception');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_INC2','Inception');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_THE1','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_THE2','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_INC3','Inception');
+INSERT INTO screening(show_id,movie_title) VALUES ('I_INC4','Inception');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_GOO1','Goodbye to Language');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_GOO2','Goodbye to Language');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_THE3','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_THE4','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_GOO3','Goodbye to Language');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_GOO4','Goodbye to Language');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_MAD3','Mad Max: Fury Road');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_MAD4','Mad Max: Fury Road');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_THE5','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_THE6','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_GOO5','Goodbye to Language');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_GOO6','Goodbye to Language');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_MAD5','Mad Max: Fury Road');
+INSERT INTO screening(show_id,movie_title) VALUES ('D_THES','The Adventures of Tintin');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_ROA1','Road to Perdition');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_ROA2','Road to Perdition');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_AIA3','A.I. Artificial Intelligence');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_AIA4','A.I. Artificial Intelligence');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_ROA3','Road to Perdition');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_ROA4','Road to Perdition');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_SKY3','Skyfall');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_INCS','Inception');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_ROA5','Road to Perdition');
+INSERT INTO screening(show_id,movie_title) VALUES ('2_ROA6','Road to Perdition');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_MUN1','Munich');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_MUN2','Munich');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_SNO1','Snowpiercer');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_SNO2','Snowpiercer');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_IAM1','I am Love');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_IAM2','I am Love');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_SNO3','Snowpiercer');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_SNO4','Snowpiercer');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_IAM3','I am Love');
+INSERT INTO screening(show_id,movie_title) VALUES ('1_IAM4','I am Love');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_SAT3','Satantango');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_SAT4','Satantango');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_AIA5','A.I. Artificial Intelligence');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_AIA6','A.I. Artificial Intelligence');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_BEF3','Before The Flood');
+INSERT INTO screening(show_id,movie_title) VALUES ('G_BEF4','Before The Flood');
+
+
+INSERT INTO auditorium(number) VALUES (1);
+INSERT INTO auditorium(number) VALUES (2);
+INSERT INTO auditorium(number) VALUES (3);
+/*
+INSERT INTO auditorium(number) VALUES (4);
+INSERT INTO auditorium(number) VALUES (5);
+INSERT INTO auditorium(number) VALUES (6);
+INSERT INTO auditorium(number) VALUES (7);
+INSERT INTO auditorium(number) VALUES (8);
+INSERT INTO auditorium(number) VALUES (9);
+INSERT INTO auditorium(number) VALUES (10);
+*/
+
+INSERT INTO seat(row_num,col_num,price) VALUES ('A',1,200);
+INSERT INTO seat(row_num,col_num,price) VALUES ('A',2,200);
+INSERT INTO seat(row_num,col_num,price) VALUES ('A',3,200);
+INSERT INTO seat(row_num,col_num,price) VALUES ('B',1,200);
+INSERT INTO seat(row_num,col_num,price) VALUES ('B',2,200);
+INSERT INTO seat(row_num,col_num,price) VALUES ('B',3,200);
+INSERT INTO seat(row_num,col_num,price) VALUES ('C',1,250);
+INSERT INTO seat(row_num,col_num,price) VALUES ('C',2,250);
+INSERT INTO seat(row_num,col_num,price) VALUES ('C',3,250);
+INSERT INTO seat(row_num,col_num,price) VALUES ('D',1,300);
+INSERT INTO seat(row_num,col_num,price) VALUES ('D',2,300);
+INSERT INTO seat(row_num,col_num,price) VALUES ('D',3,300);
+
+
+INSERT INTO customer(email,password,name,phone_number,balance) VALUES ('plague300@hackersrepublic.com','pineapple9','Plague',8671938004,30000);
+INSERT INTO customer(email,password,name,phone_number,balance) VALUES ('trinity6@hackersrepublic.com','london94','Trinity',8278394466,15000);
+INSERT INTO customer(email,password,name,phone_number,balance) VALUES ('wasp4@hackersrepulic.com','umikael','Wasp',8872941670,120000);
+INSERT INTO customer(email,password,name,phone_number,balance) VALUES ('mikaelblom@millenium.com','hanserik','Mikael Blomkvist',8792241000,55000);
+
+
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_SAT1',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_SAT2',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_AIA1',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_AIA2',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_BEF1',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_BEF2',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_MAD1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_MAD2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_SKY1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_SKY2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_INC1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_INC2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_THE1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_THE2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_INC3',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'I_INC4',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_GOO1',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_GOO2',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_THE3',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_THE4',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_GOO3',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_GOO4',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_MAD3',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_MAD4',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_THE5',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_THE6',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_GOO5',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_GOO6',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_MAD5',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'D_THES',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_ROA1',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_ROA2',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_AIA3',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_AIA4',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_ROA3',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_ROA4',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_SKY3',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_INCS',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_ROA5',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '2_ROA6',1,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_MUN1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_MUN2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_SNO1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_SNO2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_IAM1',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_IAM2',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_SNO3',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_SNO4',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_IAM3',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT '1_IAM4',2,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_SAT3',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_SAT4',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_AIA5',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_BEF3',3,row_num,col_num,'A' FROM SEAT;
+INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELECT 'G_BEF4',3,row_num,col_num,'A' FROM SEAT;
+
+/*the booking table has to modify the seat status in show_details, for this do a insert followed by an update */
+/*bookings can have the same id, but if they do it means they are for multiple seats for the same show */
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('plague300@hackersrepublic.com','G_SAT1','A',1,'PLA001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_SAT1' AND s_row_num = 'A' AND s_col_num = 1;
+
+/*
+u = models.User(email='plague300@hackersrepublic.com',password='pineapple9',name='Plague',phone_number=8671938004,balance=30000)
+u = models.User(email='trinity6@hackersrepublic.com',password='london94',name='Trinity',phone_number=8278394466,balance=15000)
+u = models.User(email='wasp4@hackersrepulic.com',password='umikael',name='Wasp',phone_number=8872941670,balance=120000)
+u = models.User(email='mikaelblom@millenium.com',password='hanserik',name='Mikael Blomkvist',phone_number=8792241000,balance=55000)
+*/
