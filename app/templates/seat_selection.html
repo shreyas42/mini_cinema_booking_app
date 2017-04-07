@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
     <h2>Seat details for <u><b>{{ movie_name }}</b></u> on {{s_date}} at {{ s_time }} </h2>
-    <h3> Auditorium Number: {{ audi }}</br> Shown in format: </h3>
-    <ul>
-        {% for seat in seats %}
-        <li><h3>{{ seat.s_row_num}} {{ seat.s_col_num }} </h3> </li>
-        {% endfor %}
-    </ul> 
+    <h3> Auditorium Number: {{ audi }}</br> Shown in format: {{ format }}</h3> 
+    <h3> Available Seats </h3>
+  <form action="/confirmation" method="POST">
+  {% for seat in seats %}
+  <h3><input type="checkbox" name="check" value = {{ seat.s_row_num+seat.s_col_num|string }}><label for = {{ seat.s_row_num }}{{ seat.s_col_num }}>{{ seat.s_row_num }}-{{ seat.s_col_num }}</label></input></br></h3>
+  {% endfor %}
+  <input type="submit" value="Book your Tickets!">
+</form> 
 {% endblock %}

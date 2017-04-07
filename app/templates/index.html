@@ -2,6 +2,6 @@
 {% block content %}
 	<h2>Book Tickets for:</h2>
 	{% for movie in movies %}
-		<div><a href = {{ url_for('shows',title = movie.title) }}></br><h3><b>{{ movie.title }}</b></h3> rated :<b>{{ movie.critics_score}}</b>, running for:<b>{{ movie.running_time }} min</b>,language is: <b>{{ movie.language }}</b></a></div>
+		<div><a href = {{ url_for('shows',title = movie.title) }}></br><h3><b>{{ movie.title }}</b></h3> rated :<b>{{ movie.critics_score}}</b>, running for:<b>{{ movie.running_time }} min</b>,language : <b>{{ movie.language }}</b></a></div>
 	{% endfor %}	
 {% endblock %}

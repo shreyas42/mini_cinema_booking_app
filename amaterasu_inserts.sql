@@ -351,8 +351,28 @@ INSERT INTO show_details(show_id,audi_number,s_row_num,s_col_num,s_status) SELEC
 
 /*the booking table has to modify the seat status in show_details, for this do a insert followed by an update */
 /*bookings can have the same id, but if they do it means they are for multiple seats for the same show */
-INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('plague300@hackersrepublic.com','G_SAT1','A',1,'PLA001');
-UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_SAT1' AND s_row_num = 'A' AND s_col_num = 1;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('wasp4@hackersrepulic.com','1_IAM3','C',2,'WAS001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = '1_IAM3' AND s_row_num = 'C' AND s_col_num = 2;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('wasp4@hackersrepulic.com','1_IAM3','C',3,'WAS001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = '1_IAM3' AND s_row_num = 'C' AND s_col_num = 3;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('mikaelblom@millenium.com','G_BEF2','A',1,'MIK001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_BEF2' AND s_row_num = 'A' AND s_col_num = 1;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('mikaelblom@millenium.com','G_BEF2','A',2,'MIK001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_BEF2' AND s_row_num = 'A' AND s_col_num = 2;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('mikaelblom@millenium.com','G_BEF2','A',3,'MIK001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_BEF2' AND s_row_num = 'A' AND s_col_num = 3;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('mikaelblom@millenium.com','G_BEF2','B',2,'MIK001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_BEF2' AND s_row_num = 'B' AND s_col_num = 2;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('plague300@hackersrepublic.com','D_GOO3','C',2,'PLA001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'D_GOO3' AND s_row_num = 'C' AND s_col_num = 2;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('mikaelblom@millenium.com','D_MAD5','B',2,'MIK002');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'D_MAD5' AND s_row_num = 'B' AND s_col_num = 2;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('mikaelblom@millenium.com','D_MAD5','B',3,'MIK002');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'D_MAD5' AND s_row_num = 'B' AND s_col_num = 3;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('wasp4@hackersrepulic.com','G_SAT1','D',2,'WAS002');
+UPDATE show_details SET s_status = 'B' WHERE show_id = 'G_SAT1' AND s_row_num = 'D' AND s_col_num = 2;
+INSERT INTO booking(cust_email,show_id,s_row_num,s_col_num,booking_id) VALUES ('trinity6@hackersrepublic.com','1_IAM2','C',1,'TRI001');
+UPDATE show_details SET s_status = 'B' WHERE show_id = '1_IAM2' AND s_row_num = 'C' AND s_col_num = 1;
 
 /*
 u = models.User(email='plague300@hackersrepublic.com',password='pineapple9',name='Plague',phone_number=8671938004,balance=30000)

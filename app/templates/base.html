@@ -90,7 +90,7 @@
                     <ul class="nav navbar-nav">
                         <li class="content"><a href= {{ url_for('aboutus') }}>About Us</a></li>
                         <li class="content"><a href= {{ url_for('description') }}>Project Description</a></li>
-                        <li class="content"><a href="#"> {% if session['user'] != None %}{{ session['user'] }}{% endif %}</a></li>
+                        <li class="content"><a href="#"> {% if session['user'] != None %}Hello {{ session['user'] }}!{% endif %}</a></li>
                     </ul>
                 </div><!-- /.nav-collapse -->
             </div><!-- /.container -->

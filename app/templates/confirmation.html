@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+        {% if booking_status %}
+        <h2>{{message}}</h2>
+        <h2>{{movie}}</h2>
+        <h2>Auditorium: {{auditorium}}</h2>
+        <h2>{{date}} at {{time}}</h2>
+        {% for seat in seats_selected %}
+            <h3>{{seat}}</h3>
+        {% endfor%}
+        {% else %}
+        <h2>{{message}}</h2>
+        {% endif %}
+        <a href = {{url_for('index')}}>Click to go back home</a>
+    {% endblock %}
