@@ -41,6 +41,13 @@ class Booking(Base):
     seat = relationship('Seat')
     show = relationship('Show')
 
+    def __init__(self,email,s_id,row,col,booking):
+        self.cust_email = email
+        self.show_id = s_id
+        self.s_row_num = row
+        self.s_col_num = col
+        self.booking_id = booking
+
 
 class Customer(Base):
     __tablename__ = 'customer'

@@ -120,6 +120,8 @@ def confirmation():
 		for seat in seat_details:
 			listing = db.session.query(ShowDetail).filter(and_(ShowDetail.show_id==session['showid'],ShowDetail.s_row_num==seat[0],ShowDetail.s_col_num==seat[1])).one()
 			listing.s_status = 'B'
+			entry = Booking(session['email'],session['showid'],seat[0],seat[1],booking_id)
+			db.session.add(entry)
 		db.session.commit()
 		message = 'Booking Successful!'
 	return render_template('confirmation.html',movie = session['movie_name'],seats_selected = seats_selected,date = session['showdate'],time = session['showtime'],auditorium=session['audi_no'],booking_id = booking_id,message = message,booking_status=booking_status)
